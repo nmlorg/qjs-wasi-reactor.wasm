@@ -1,0 +1,3 @@
+/*.egg-info/
+/.venv/
+/qjs-wasi-reactor/qjs-wasi-reactor.wasm

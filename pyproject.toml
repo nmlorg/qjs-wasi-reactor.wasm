@@ -1,0 +1,17 @@
+[project]
+name = 'qjs-wasi-reactor.wasm'
+version = '0.13.0.1'  # QuickJS-NG 0.13.0, build 1.
+description = "Data-only copy of QuickJS-NG's qjs-wasi-reactor.wasm."
+authors = [
+    {name = 'Daniel Reed', email = 'nmlorg@gmail.com'},
+]
+
+[project.urls]
+Homepage = 'https://github.com/nmlorg/qjs-wasi-reactor.wasm'
+Upstream = 'https://github.com/quickjs-ng/quickjs'
+
+[tool.setuptools]
+packages = ['qjs-wasi-reactor']
+
+[tool.setuptools.package-data]
+'qjs-wasi-reactor' = ['qjs-wasi-reactor.wasm']
