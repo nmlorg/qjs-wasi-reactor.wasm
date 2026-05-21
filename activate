@@ -19,7 +19,7 @@ source .venv/bin/activate
 
 if [ ! -f qjs-wasi-reactor/qjs-wasi-reactor.wasm ]; then
   mkdir -p qjs-wasi-reactor
-  (cd qjs-wasi-reactor && wget https://github.com/quickjs-ng/quickjs/releases/download/v0.14.0/qjs-wasi-reactor.wasm)
+  (cd qjs-wasi-reactor && wget https://github.com/quickjs-ng/quickjs/releases/download/v0.15.0/qjs-wasi-reactor.wasm)
 fi
 
 pip install -U pip setuptools
