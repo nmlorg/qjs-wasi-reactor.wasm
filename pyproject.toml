@@ -1,6 +1,6 @@
 [project]
 name = 'qjs-wasi-reactor.wasm'
-version = '0.15.1.1'  # QuickJS-NG 0.15.1, build 1.
+version = '0.16.0'  # QuickJS-NG 0.16.0.
 description = "Data-only copy of QuickJS-NG's qjs-wasi-reactor.wasm."
 authors = [
     {name = 'Daniel Reed', email = 'nmlorg@gmail.com'},
